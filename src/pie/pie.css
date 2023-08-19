@@ -1,0 +1,59 @@
+.pie {
+    /* position: absolute; */
+    display: flex;
+    margin: 20px -10px;
+  color: black;
+
+}
+
+.pie_chart1 {
+    background-image: conic-gradient(red 0deg, red 90deg, green 90deg, green 180deg, blue 180deg, blue 270deg, rgb(237, 186, 186) 270deg, rgb(237, 186, 186) 360deg);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    transition: all 0.4s;
+}
+
+
+.pie_chart2 {
+    position: absolute;
+    margin: -3px -3px auto;
+    background-image: conic-gradient(rgb(117, 112, 112) 0deg, rgb(117, 112, 112) 90deg, rgb(117, 112, 112) 90deg, rgb(117, 112, 112) 180deg, rgb(117, 112, 112) 180deg, rgb(117, 112, 112) 270deg, transparent 240deg);
+    border-radius: 50%;
+    width: 456px;
+    height: 455px;
+    transform: rotate(45deg);
+}
+.pie_content{
+    position: absolute;
+    text-align: center;
+    /* left: 29%; */
+    /* top: 40%; */
+    color: rgb(20, 19, 19);
+}
+
+.arrow {
+    width: 120px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 36%;
+    top: 60%;
+  }
+  
+  .line {
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 60px;
+    background: black;
+    height: 8px;
+    float: left;
+  }
+  
+  .point {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid black;
+    float: right;
+  }

@@ -1,0 +1,39 @@
+
+.card{  
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+.card div{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+label{
+    font-weight: bolder;
+}
+input{
+    width: 250px;
+    font-size: 16px;
+    border:0;
+    border-bottom: 2px solid black;
+}
+
+.btn{
+    font-size: 16px;
+    width: 140px;
+    background: rgb(19, 202, 74);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.reload{
+background: blue;
+}
+small{
+    font-weight: bolder;
+}
